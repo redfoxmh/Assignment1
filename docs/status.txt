@@ -1,1 +1,7 @@
+FairlightExcalibur@DESKTOP-F5MU1S8 MINGW64 ~/Documents/GitHub/Assignment1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
 
