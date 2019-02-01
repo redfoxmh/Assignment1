@@ -38,7 +38,76 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
     simulateWeapon(weapon, armor);
     delete(weapon);
+	
+	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 35;
+	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 10;
+	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 10;
+	weapon = WeaponFactory::getInstance()->getWeapon("random sword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 45;
+	weapon = WeaponFactory::getInstance()->getWeapon("random sword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 23;
+	weapon = WeaponFactory::getInstance()->getWeapon("random sword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 46;
+	weapon = WeaponFactory::getInstance()->getWeapon("random sword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 78;
+	weapon = WeaponFactory::getInstance()->getWeapon("random sword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 90;
+	weapon = WeaponFactory::getInstance()->getWeapon("random sword");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+	
+	armor = 45;
+	weapon = WeaponFactory::getInstance()->getWeapon("Aestus Estus");
+    simulateWeapon(weapon, armor);
+	armor = 10;
+	simulateWeapon(weapon, armor);
+	armor = 75;
+	simulateWeapon(weapon, armor);
+	armor = 235;
+	simulateWeapon(weapon, armor);
+	armor = 624;
+	simulateWeapon(weapon, armor);
+    delete(weapon);
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
