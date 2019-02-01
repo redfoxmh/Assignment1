@@ -1,0 +1,58 @@
+a0fba53 (HEAD -> master, origin/master, origin/HEAD) refs/remotes/origin/master@{0}: update by push
+a0fba53 (HEAD -> master, origin/master, origin/HEAD) refs/heads/master@{0}: commit: Answered question 5
+a0fba53 (HEAD -> master, origin/master, origin/HEAD) HEAD@{0}: commit: Answered question 5
+15fe932 (origin/development, development) refs/remotes/origin/master@{1}: update by push
+15fe932 (origin/development, development) refs/heads/master@{1}: merge development: Fast-forward
+15fe932 (origin/development, development) HEAD@{1}: merge development: Fast-forward
+a77cc5a HEAD@{2}: checkout: moving from development to master
+15fe932 (origin/development, development) refs/remotes/origin/development@{0}: update by push
+15fe932 (origin/development, development) refs/heads/development@{0}: commit: Added test cases within main
+15fe932 (origin/development, development) HEAD@{3}: commit: Added test cases within main
+ea7b1b2 refs/remotes/origin/development@{1}: update by push
+ea7b1b2 refs/heads/development@{1}: commit: Fixed compiler thrown syntax errors
+ea7b1b2 HEAD@{4}: commit: Fixed compiler thrown syntax errors
+1c58f32 refs/remotes/origin/development@{2}: update by push
+1c58f32 refs/heads/development@{2}: commit: Added support for Custom weapon
+1c58f32 HEAD@{5}: commit: Added support for Custom weapon
+27df08c refs/remotes/origin/development@{3}: update by push
+27df08c refs/heads/development@{3}: commit: Added random sword support
+27df08c HEAD@{6}: commit: Added random sword support
+98866c3 refs/remotes/origin/development@{4}: update by push
+98866c3 refs/heads/development@{4}: commit: Added SimpleHammer to WeaponFactory
+98866c3 HEAD@{7}: commit: Added SimpleHammer to WeaponFactory
+ded861d refs/remotes/origin/development@{5}: update by push
+ded861d refs/heads/development@{5}: commit: SimpleHammer Completed
+ded861d HEAD@{8}: commit: SimpleHammer Completed
+13a3d83 refs/remotes/origin/development@{6}: update by push
+13a3d83 refs/heads/development@{6}: commit: Prepped new weapons
+13a3d83 HEAD@{9}: commit: Prepped new weapons
+a77cc5a HEAD@{10}: checkout: moving from master to development
+a77cc5a refs/heads/development@{7}: branch: Created from master
+a77cc5a refs/remotes/origin/master@{2}: update by push
+a77cc5a refs/heads/master@{2}: revert: Revert " Created Files for New Weapons"
+a77cc5a HEAD@{11}: revert: Revert " Created Files for New Weapons"
+2de8e73 refs/remotes/origin/master@{3}: update by push
+2de8e73 refs/heads/master@{3}: commit: Created Files for New Weapons
+2de8e73 HEAD@{12}: commit: Created Files for New Weapons
+fb3391b refs/remotes/origin/master@{4}: update by push
+fb3391b refs/heads/master@{4}: commit: Completed 3.E
+fb3391b HEAD@{13}: commit: Completed 3.E
+227afdf refs/remotes/origin/master@{5}: update by push
+227afdf refs/heads/master@{5}: commit: Created answers.txt file in docs
+227afdf HEAD@{14}: commit: Created answers.txt file in docs
+ac53070 refs/remotes/origin/master@{6}: update by push
+ac53070 refs/heads/master@{6}: commit: Post commit status update
+ac53070 HEAD@{15}: commit: Post commit status update
+0be42b4 refs/remotes/origin/master@{7}: update by push
+0be42b4 refs/heads/master@{7}: revert: Revert " Post commit check of local copy"
+0be42b4 HEAD@{16}: revert: Revert " Post commit check of local copy"
+7ae0eb6 refs/remotes/origin/master@{8}: update by push
+7ae0eb6 refs/heads/master@{8}: commit: Post commit check of local copy
+7ae0eb6 HEAD@{17}: commit: Post commit check of local copy
+1c93ac9 refs/remotes/origin/master@{9}: update by push
+1c93ac9 refs/heads/master@{9}: commit: Updated readme with student info
+1c93ac9 HEAD@{18}: commit: Updated readme with student info
+3d373c9 refs/heads/master@{10}: clone: from https://github.com/redfoxmh/Assignment1.git
+3d373c9 refs/remotes/origin/HEAD@{0}: clone: from https://github.com/redfoxmh/Assignment1.git
+3d373c9 HEAD@{19}: clone: from https://github.com/redfoxmh/Assignment1.git
+
