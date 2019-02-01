@@ -15,7 +15,7 @@ double AestusEstus::hit(double armor)
 	
 	while(armor >= 25)
 	{
-		if(armor % 3 == 0)
+		if((int)armor % 3 == 0)
 			break;
 		armorStack = armorStack + armor / 2;
 		armor = armor / 2;
