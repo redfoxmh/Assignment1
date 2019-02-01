@@ -1,0 +1,47 @@
+3.E
+a)FairlightExcalibur@DESKTOP-F5MU1S8 MINGW64 ~/Documents/GitHub/Assignment1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+FairlightExcalibur@DESKTOP-F5MU1S8 MINGW64 ~/Documents/GitHub/Assignment1 (master)
+$ vim docs/status.txt
+
+FairlightExcalibur@DESKTOP-F5MU1S8 MINGW64 ~/Documents/GitHub/Assignment1 (master)
+$ git commit -a
+[master ac53070]        Post commit status update
+ 1 file changed, 6 insertions(+)
+
+FairlightExcalibur@DESKTOP-F5MU1S8 MINGW64 ~/Documents/GitHub/Assignment1 (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 549 bytes | 274.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/redfoxmh/Assignment1.git
+   0be42b4..ac53070  master -> master
+
+
+b)"git log" provides a detailed explanation for each commit allowing one to count them out. "git shortlog" shows a list of commits for each contributor and number of commits per contributor. "git rev-list master --count" gives an exact count of all commits. Total number of commits was 7 as I made several mistakes with committing and had to revert.
+
+c) Thu Jan 10 16:45:38 2019 the command "git log .gitignore" was used.
+
+d)Branching are often used to separate code that is being modified allowing for items to be worked on in parallel such as new features and bug fixes. It is also used in order to give developers a private space to test code in order to maintain the quality of it.
+
+e)"git log" shows a detailed list of all commits that have taken place alongside there commit messages. "git status" shows information regarding the local copy of your repo such as if any changes have been made since the last commit and what files are being tracked.
+
+f)"git log Weapons.h"
+
+g)"git log --grep="file""
+
+h) I)Inheritance is essentially allowing a class to act in a way similar to another class, typically a parent class by essentially using the parents classes functions and variables.
+II)Polymorphism is similar to inheritance in that classes will be able to utilize functions bearing the same names as functions in other classes but inherently work differently based on the class that is calling it such as the draw() function for classes circle, square, pentagon, etc.
+III)Encapsulation is a method of hiding data and the methods in which we manipulating the data from a public user in order to prevent the manipulation of it in a malicious form (such as someone setting the size of an vector to -88 or other potentially hazardous actions) and giving the user a safer public method to manipulate data.
+
+i)The primary difference between the two workflows is that the "Dictator and Lieutenants" workflow has multiple people handling the process of integration of code into the blessed repository whereas the "Integration management" workflow has a single integration manager integrating all the developer code into the single blessed repository.
+j)The disadvantage of the "centralized" workflow in this situation is that with so many coders the amount of conflicts that would occur in code would be extraordinarily high and everytime a single developer finished resolving there conflicts they would likely have to pull from the repository again in order to be up to date on the code and subsequently fix conflicts again where as "Dictator and Lieutenants" would have a team dedicated to fixing an errors that occurred allowing the developers to focus on work and consistently churning out new code for the stable build.
